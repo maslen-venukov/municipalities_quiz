@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { BrowserRouter as Router } from 'react-router-dom'
 import axios from 'axios'
 
-import { apiUrl } from './constants'
+import { API_URL } from './constants'
 
 import App from './App'
 
@@ -12,7 +12,7 @@ import store from './store'
 
 import './assets/sass/index.sass'
 
-axios.defaults.baseURL = apiUrl
+axios.defaults.baseURL = API_URL
 
 ReactDOM.render(
   <StrictMode>

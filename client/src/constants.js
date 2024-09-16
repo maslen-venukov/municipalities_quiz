@@ -1,4 +1,4 @@
-export const apiUrl = 'http://localhost:5000'
+export const API_URL = 'http://176.28.64.201:5000'
 
 export const AVERAGE = 'AVERAGE'
 export const SCORES = 'SCORES'
